@@ -3,7 +3,7 @@ huggingface-hub==0.10.0
 streamlit==1.12.2
 transformers==4.21.3
 pandas==1.4.4
-Cython==0.29.32
+CPython==3.6
 st-annotated-text==3.0.0
 plotly==5.10.0
 tensorboard==2.10.0
@@ -21,4 +21,3 @@ torchaudio @ https://download.pytorch.org/whl/cu113/torchaudio-0.12.1%2Bcu113-cp
 torchsummary==1.5.1
 torchtext==0.13.1
 torchvision @ https://download.pytorch.org/whl/cu113/torchvision-0.13.1%2Bcu113-cp37-cp37m-linux_x86_64.whl
-
