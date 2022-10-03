@@ -3,6 +3,7 @@ huggingface-hub==0.10.0
 streamlit==1.12.2
 transformers==4.21.3
 pandas==1.4.4
+Cython==0.29.32
 st-annotated-text==3.0.0
 plotly==5.10.0
 tensorboard==2.10.0
