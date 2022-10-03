@@ -16,5 +16,5 @@ streamlit==1.13.0
 torchsummary==1.5.1
 torchtext==0.13.1
 protobuf==3.17.3
-
+Cython==0.29.32
 
