@@ -12,7 +12,6 @@ st.write('Text to analyze')
 txt = st.text_area('')
 
 if txt != 0 and bool(txt.strip()) is True:
-
   batch = tokenizer.prepare_seq2seq_batch(txt, truncation=True, padding='longest',return_tensors='pt')
   translated = model.generate(**batch)
   tgt_text = tokenizer.batch_decode(translated, skip_special_tokens=True)
