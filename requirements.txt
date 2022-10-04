@@ -7,3 +7,10 @@ sentencepiece==0.1.97
 streamlit==1.13.0
 Cython==0.29.32
 absl-py==1.2.0
+
+-f https://download.pytorch.org/whl/cu113/torch-1.12.1%2Bcu113-cp37-cp37m-linux_x86_64.whl
+torch==1.12.1+cpu 
+-f https://download.pytorch.org/whl/cu113/torchaudio-0.12.1%2Bcu113-cp37-cp37m-linux_x86_64.whl
+torchaudio==0.12.1+cpu
+-f https://download.pytorch.org/whl/cu113/torchvision-0.13.1%2Bcu113-cp37-cp37m-linux_x86_64.whl
+torchvision==0.12.1+cpu
