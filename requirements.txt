@@ -20,7 +20,7 @@ Cython==0.29.32
 absl-py==1.2.0
 numpy==1.21.6
 tensorflow-text==2.5.0
-tensor2tensor==2.5.0
+tensor2tensor==1.0
 tensorflow-gpu==2.5.0
 tensorboard-plugin-wit==1.8.1
 tensorflow==2.8.2+zzzcolab20220719082949
